@@ -69,6 +69,7 @@ def handle_updates(updates):
         else:
             lastName = ''
 
+        db.db_connect()
         items = db.get_items(chat)
         items_lower = [x.lower() for x in items]
 
@@ -87,6 +88,7 @@ def handle_updates(updates):
             command(text,chat,firstName)
 
         elif text == "/stop" or text.lower() in goodbye_messages:
+            db.db_connect()
             db.delete_chat(chat)
             msg = 'Thank you, ' +firstName+ " for your time. Good day ahead :)"
             send_message(msg,chat)
@@ -99,6 +101,7 @@ def handle_updates(updates):
             else:
                 send_message(msg + " This is OpenHack-ServiceBot. How can I assist you today?", chat)
                 sendHelptext(chat)
+                db.db_connect()
                 db.add_item(text, chat)
 
         elif text.lower() == 'help' or text == "/menu":
@@ -109,6 +112,7 @@ def handle_updates(updates):
             send_message("Sorry, I cannot understand.",chat)
             sendHelptext(chat)
         if text != '/stop' or text.lower() in goodbye_messages:
+            db.db_connect()
             db.add_item(text, chat)
 
 def get_last_chat_id_and_text(updates):
@@ -136,6 +140,7 @@ def send_message(text, chat_id, reply_markup=None):
 
 @application.route("/")
 def start():
+    db.db_connect()
     db.setup()
     last_update_id = None
     while True:
@@ -148,6 +153,7 @@ def start():
 
 def command(text,chat,firstName):
     if text.lower() == 'clear chat' or text.lower() == 'cc' or text == 'Clear Chat History':
+        db.db_connect()
         db.delete_chat(chat)
         message = "Chat history has been cleared from server. Please use 'Clear history' in options button, to clear chat from this window. Thank you."
         send_message(message, chat)
@@ -162,7 +168,9 @@ def command(text,chat,firstName):
         ticket_no = random.randint(10000, 19999)
 
     elif text == 'Show Pending Requests':
+        db.db_connect()
         db.delete_invalid_cases(chat)
+        db.db_connect()
         case = db.get_pending_case(chat)
         if len(case) != 0:
             for item in case:
@@ -180,7 +188,9 @@ def command(text,chat,firstName):
 
     elif text == 'Close Request':
         #global action
+        db.db_connect()
         db.delete_invalid_cases(chat)
+        db.db_connect()
         case = db.get_pending_case(chat)
         if len(case) != 0:
             keyboard_layout = []
@@ -199,7 +209,9 @@ def command(text,chat,firstName):
             sendHelptext(chat)
 
     elif text == 'Escalate Request':
+        db.db_connect()
         db.delete_invalid_cases(chat)
+        db.db_connect()
         case = db.get_pending_case(chat)
         if len(case) != 0:
             keyboard_layout = []
@@ -222,10 +234,12 @@ def log_service_request(chat,text,firstName,lastName,ticket_no):
     subject = text
 
     date_today = datetime.datetime.now().strftime('%Y-%m-%d')
+    db.db_connect()
     data = db.get_case_subject(ticket_no,chat,date_today)
     print("Case Detail: " + str(data))
 
     if data == None:
+        db.db_connect()
         db.add_case_subject(ticket_no, text, chat, firstName, lastName, date_today)
         send_message("I am sorry to hear that. Can you please elaborate for me to take the request?",chat)
 
@@ -233,6 +247,7 @@ def log_service_request(chat,text,firstName,lastName,ticket_no):
         if len(text) >= 10:
             department = ml.get_department(text)
             #department = 'XYZ'
+            db.db_connect()
             db.update_case_detail(text, chat, date_today, ticket_no,department)
             send_message("Ok " + firstName + ", please tell me your location and your phone number to log a request. eg: Pune, 1234569870",chat)
         else:
@@ -248,8 +263,11 @@ def log_service_request(chat,text,firstName,lastName,ticket_no):
             if len(phn_no) == 10:
                 loc = text[0]
                 assignee = random.choice(correspondent_list)
+                db.db_connect()
                 db.update_case_phn_loc(phn_no, loc, chat, date_today,assignee,ticket_no)
+                db.db_connect()
                 db.update_priority(chat,1,ticket_no)
+                db.db_connect()
                 department = db.get_case_department(ticket_no,chat)[0]
 
                 if department == '':
@@ -273,7 +291,9 @@ def close_reuqest(chat,text):
     case_id = text.split(":")[0]
     #print(case_id)
     if any(char.isdigit() for char in case_id):
+        db.db_connect()
         whd_ticket_id = db.get_case_whd_ticket_id(case_id,chat)[-1]
+        db.db_connect()
         db.delete_case(case_id,chat)
         whdapi.delete_ticket(whd_ticket_id)
         send_message("Incident #" +str(case_id) + " has been purged. Hope we served you well.",chat)
@@ -293,6 +313,7 @@ def escalate_request(chat,text):
         print(case_id,priority)
         log_date = str(text.split(" Opened On ")[-1])
         if priority+1 <= 3:
+            db.db_connect()
             db.update_priority(chat,priority+1,case_id)
             send_message("Incident #" + str(case_id) + " has been escalated to Priority " + str(priority+1) + " from Priority " + str(priority) +
                          "\n\nWe will reach you as soon as possible.",chat)

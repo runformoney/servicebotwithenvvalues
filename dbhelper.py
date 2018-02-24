@@ -6,12 +6,16 @@ class DBHelper:
         # self.dbname = dbname
         global db
         global conn
-        db = MySQLdb.connect(host="172.30.36.179", port = 3306, user = "userQWE", passwd = "m26ICqi2YQbxImuB", db = "sampledb")
+        #db = MySQLdb.connect(host="172.30.88.166", port = 3306, user = "userWIP", passwd = "atyKAFDkMW6dnMri", db = "sampledb")        
+        #db = MySQLdb.connect(host="172.30.115.81", port=3306, user="userXGB", passwd=" qkBjP1g0RvBYu6QY", db="sampledb")
+        #db = MySQLdb.connect(host="172.30.115.81", port=3306, user="userRTL", passwd="eNU1gYbC1EYLe6gN", db="sampledb")
+        db = MySQLdb.connect(host="127.0.0.1", port=3306, user="root", passwd="admin", db="sampledb",connect_timeout=28800)
         conn = db.cursor()
         #conn.query('SET GLOBAL connect_timeout=28800')
         conn.execute('SET GLOBAL wait_timeout=28800')
         conn.execute('SET GLOBAL interactive_timeout=28800')
         db.commit()
+        conn.close()
         print("Connection with DB successfull")
 
     def setup(self):
@@ -25,6 +29,13 @@ class DBHelper:
         # self.conn.execute(ownidx)
         db.commit()
 
+    def db_connect(self):
+        global db
+        global conn
+        db = MySQLdb.connect(host="127.0.0.1", port=3306, user="root", passwd="admin", db="sampledb",
+                             connect_timeout=28800)
+        conn = db.cursor()
+
     def add_item(self, item_text, owner):
         owner = str(owner)
         item_text = str(item_text)
@@ -32,6 +43,7 @@ class DBHelper:
         args = (item_text, owner)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def delete_item(self, item_text, owner):
         owner = str(owner)
@@ -40,6 +52,7 @@ class DBHelper:
         args = (item_text, owner)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def get_items(self, owner):
         owner = str(owner)
@@ -51,6 +64,7 @@ class DBHelper:
         for row in results:
             res.append(row[0])
         return res
+        conn.close()
 
     def delete_chat(self, owner):
         owner = str(owner)
@@ -59,6 +73,7 @@ class DBHelper:
         args = (owner,)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def delete_case(self, ticket_no, owner):
         owner = str(owner)
@@ -68,6 +83,7 @@ class DBHelper:
         args = (ticket_no, owner)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def add_case_subject(self, ticket_no, text, chat, firstName, lastName, date_today):
         chat = str(chat)
@@ -77,6 +93,7 @@ class DBHelper:
         args = (ticket_no, date_today, chat, text, firstName, lastName)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def get_case_subject(self, ticket_no, chat, date_today):
         chat = str(chat)
@@ -90,6 +107,7 @@ class DBHelper:
         # print(result)
         # return results
         return results
+        conn.close()
 
     def get_case_department(self, ticket_no, chat):
         chat = str(chat)
@@ -101,6 +119,7 @@ class DBHelper:
         # result = [x for x in conn.execute(stmt, args)]
         # print(result)
         return result
+        conn.close()
 
     def get_case_whd_ticket_id(self, ticket_no, chat):
         chat = str(chat)
@@ -114,6 +133,7 @@ class DBHelper:
         # result = [x for x in conn.execute(stmt, args)]
         # print(result)
         return results
+        conn.close()
 
     def delete_invalid_cases(self, chat):
         chat = str(chat)
@@ -121,6 +141,7 @@ class DBHelper:
         args = (chat,)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def update_case_detail(self, text, chat, date_today, ticket_no, department):
         chat = str(chat)
@@ -130,6 +151,7 @@ class DBHelper:
         args = (text, department, chat, date_today, ticket_no)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def update_case_phn_loc(self, phn, loc, chat, date_today, assignee, ticket_no):
         chat = str(chat)
@@ -140,6 +162,7 @@ class DBHelper:
         args = (phn, loc, assignee, chat, date_today, ticket_no)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def update_whd_ticket_id(self, whd_ticket_id, owner, date_today, ticket_no):
         owner = str(owner)
@@ -150,6 +173,7 @@ class DBHelper:
         args = (whd_ticket_id, owner, date_today, ticket_no)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()
 
     def get_pending_case(self, chat):
         chat = str(chat)
@@ -161,6 +185,7 @@ class DBHelper:
         for row in results:
             listRes.append(row)
         return listRes
+        conn.close()
         # result = [x for x in conn.execute(stmt, args)]
         # print(result)
         # return result
@@ -172,3 +197,4 @@ class DBHelper:
         args = (priority, chat, ticket_no)
         conn.execute(stmt, args)
         db.commit()
+        conn.close()

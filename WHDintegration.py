@@ -6,6 +6,7 @@ db = DBHelper()
 class APIintegration:
 
     def create_ticket_in_whd(self,ticket_id,owner_id,date_today):
+        db.db_connect()
         data = db.get_case_subject(ticket_id, owner_id, date_today)
         print(data)
         js = {
@@ -81,9 +82,11 @@ class APIintegration:
                 json_acceptable_string = response.replace("'", "\"")
                 d = json.loads(json_acceptable_string)
                 id = d['ticket']['id']
+                db.db_connect()
                 db.update_whd_ticket_id(id,owner_id,date_today,ticket_id)
 
     def escalate_ticket(self, ticket_id,owner_id,date_today):
+        db.db_connect()
         data = db.get_case_subject(ticket_id, owner_id, date_today)
         whd_ticket_id = data[-1]
         priority = int(data[-2])
