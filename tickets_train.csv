@@ -1,0 +1,240 @@
+Creation date,Subject,Detail,Department,Cust Fname,Cust Lname,Cust phn num,Cust email,Cust location,Priority
+1/2/2015,issue with air conditioner,Ac in the room is not working. Temp is not well adjusteed,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+1/3/2015,Rooms not cleaned,Rooms are tidy. Please send some one to clean the room,Facilities,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,1
+1/4/2015,watercooler not working,Please fix the watercooler issue. Water is not coming out of this. ,Facilities,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+1/5/2015,Bus schedule not available,Can you please help me with the bus schedule my location. ,Facilities,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,3
+1/6/2015,Fix the projector issue in conference room,Projetor is not working in conference room number in 5th floor A wing,Facilities,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,1
+1/7/2015,Regarding Background check documents,I Joined recently. Not able to upload the document required for background verification.,HR,Virat,Kholi,7456123890,virat.kholi@hyu.com,Delhi,2
+1/8/2015,Correction in Date of Birth,My date of birth which is displayed in system in wrong. Please correct the dates to below new date.,HR,Shikhar,Dhawan,7894561230,shikhar.dhawan@uio.com,Mumbai,1
+1/9/2015,Regarding the transfer request,I rasied tranfer request dated today. System is not allowing me to raise travel request,HR,Suresh ,Raina,9653624170,raina.suresh@poi.com,Luckhnow,2
+1/10/2015,Seperation document ,Reuiqred document for seperation is uploaded but still it is not allowing me to move forward.,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+1/11/2015,Salary is not updated,Recently got role change. But I am receiving the salary as per my previous role,HR,Ravi,Shashtri,7418529635,ravi.coach@uio.com,Chennai,1
+1/12/2015,Desktop allocaton,Please allocate me a desktop with 64 bit processor and windows 10 OS.,IT,Bharat,Arun,9638527410,bharat.arun@gmail.com,Hyderabad,2
+1/13/2015,Regarding software installation,Please instal R studio software  in my system. ,IT,Madhu,Joshi,6352897410,madhu.joshi@outlook.com,Mumbai,3
+1/14/2015,Upgrade the RAM ,My machine is very slow. Please upgrade the existing 4 gb RAM to 8 gb RAM,IT,Smita,Patil,7456891230,smita.patil@hotmail.com,Chennai,3
+1/15/2015,Deallocation of system,I am moving out of this workzone. Please deallocate this desktop,IT,Namrita,Thakur,7539518529,thakur.namrita@hye.com,Delhi,3
+1/16/2015,Regarding the replacement of desktop,My cpu is not responding and not getting switch on. Please replace the CPU,IT,Sneha,Sharma,7731945682,sneha.sharma@opi.com,Delhi,1
+1/17/2015,firmware issue,facing a firmware issue that is making the entire system to lag. Many employees facing problem. Please resolve asap,IT,Rukhshan,Rahman,1237854123,ruk@a.com,hyd,3
+1/18/2015,security breach,"security breach at MS account, need immediate response",IT,siddhanta,bhatta,1234578523,sid@b.com,bbsr,3
+1/19/2015,Project move,"Project move from A to B, need to transfer all desktops.",IT,rahul,badhan,1231302923,rah@c.com,hyd,1
+1/20/2015,Virus attack,virus attack detected. Symentec is showing threats across all project,IT,udit,prakash,1228027323,udi@d.com,blore,2
+1/21/2015,New PC needed,New PC needed to set up new account in HYD dc. ,IT,Rukhshan,Rahman,1224751723,ruk@a.com,hyd,1
+1/22/2015,Verify legal documents,Verify legal documents for AFA case asap,Legal ,siddhanta,bhatta,1221476123,sid@b.com,bbsr,3
+1/23/2015,process payment advocate,process payment for the ABC case advocate,Legal ,rahul,badhan,1218200523,rah@c.com,hyd,2
+1/24/2015,Check legal aspects,Check legal aspects for BBSR SEZ project,Legal ,udit,prakash,1214924923,udi@d.com,blore,1
+1/25/2015,send court documents,send the court documents to advocate abc and seek approvals,Legal ,Rukhshan,Rahman,1211649323,ruk@a.com,hyd,2
+1/26/2015,send court documents,Review the case -75 documents from advocate ABC,Legal ,siddhanta,bhatta,1208373723,sid@b.com,bbsr,1
+1/30/2015,Unable to give the assessment exam,"unable to give the assessment exam , as the assessment venue was locked and nobody was available to provide assistance with the exam.",HR,ravindra,kumar,1220180214,rkumar@day.com,blore,2
+1/31/2015,Unable to login to Local system,"Unable to login to Local system, the login page does not recognize my email ID and throws out error: ""Specified e-mail address is unknown.""",IT,pankaj,singh,1220180321,pks@nght.com,chandigarh,1
+2/1/2015,Unable to change 'Evaluation by' field for submitted goal,Need to change Evaluator to my current manager,HR,abd,singh,1220180402,abs@hgu.com,gurugram,3
+2/2/2015,Install software,Insatll infopath 2013 in Outlookÿ,IT,arch,kumari,1220180619,ak@bhd.com,Hyderabad,2
+2/3/2015,Install software,Kindly install WebEx_ARF_Player_3.29.3234_win_F,IT,vinit,kumar,1220180507,vkr@dd.com,jaipur,3
+2/4/2015,Email Password reset,password reset is needed for employee no. 123456. Kindly help urgently.,IT,aditya,rao,1220180711,adi@abc.com,mangalore,1
+2/5/2015,Desktop Hardware Issuesÿ,Getting Blurred screen. Not able to view anything on monitor.,IT,sai,suman,1220181225,ss@dgf.com,hyd,1
+2/6/2015,Software Allocate,Unable to login to Virtual machine. Juniper client not working,IT,jayanth,reddy,1220180801,reddyy@inf.com,gurugram,1
+2/7/2015,Desktop De Allocation,Kindly deallocate  mentioned machine  ABC-DE-DESKT-12345646465565,IT,kumar,gaurav,1220214322,kg@akdf.com,blore,2
+2/8/2015,Software Allocate,"While logging in to Virtual machine , getting this error, 'The Page you are using Requires Java. More information on Java support is available from Microsoft website.'",IT,anish,thomas,1220214321,ahtoms@gjg.com,chandigarh,1
+2/9/2015,Software Allocate,I have installed citrix. For juniper it is asking me for admin credentials.KIndly help me in this.,IT,avansh,deo,1220214562,adeo@fghjf.com,tiruvananthpuram,1
+2/10/2015,Unable to submit Effort sheet,Need to submit Effort sheets for before 12 week  for  Aug 15 2016-Aug 21 2016ÿ,IT,jason,roy,1220214895,roy@fyf.com,pune,2
+2/11/2015,Desktop Hardware Issues,"On single click, double click is happening with mouse sometimes, not always",IT,kiran,kumar,1220180101,kirk@arsd.com,pune,3
+2/12/2015,Unable to raise Complimentary leave,I was unable to raise Complimentary off on 17-09-2016 due to Leave system being under maintenance.ÿ,IT,abhay,ram,1220181431,abhram@yth.com,blore,2
+2/13/2015,Error in Dependent details,"Although entered dependent details in Harmony, still w getting error message that ""Dependent details not entered in Harmony""",IT,jay,prakash,1220180707,jp@wrd.com,Hyderabad,3
+2/14/2015,Unable to find work code in  Effort sheet,Work  codes are not getting reflected in effort sheet,IT,anurag,tripathy,1220182103,atri@hgyf.com,mangalore,2
+2/15/2015,Drawer Keys needed,Need key for Drawer CDE-MN-ZYXWV-000000011111,Facilities,abhishek,varma,1220180559,varma@ttf.com,mysore,3
+2/16/2015,Printer access needed,"Kindly provide Printer access to the below system, IJK-DESK-00000099999",IT,rohit,sharma,1220180911,rohits@rtfg.com,Pune,2
+2/17/2015,Project extension not happening,My team leader is not able to extend my allocation to my current project. Please look into it,HR,rahul,rai,1220181024,rarai@bcjb.com,blore,1
+2/18/2015,Shift mailbox access,"Hi, I have completed my training and shifted to Hyderabad, Kindly transfer my mail box access to Hyderabad.",HR,smita,devi,1220180411,smita_devi@yah.com,blore,3
+2/19/2015,Desktop Allocation,"Hi , kindly allocate me a desktop at the earliest",IT,ankita,sinha,1220251120,ankis@gml.com,Hyderabad,1
+2/20/2015,Machine formatting,"Hi, kindly Format my machine as I need to deallocate the system.",IT,harsh,kapoor,1220152632,hkp@yhg.com,mysore,1
+2/21/2015,Confirmation of submitted documents,Can you please let me know if my submitted documents are complete to be eligible for confirmation or anything is missing?,Legal ,Madhu,reddy,1220185236,madhred@yah.com,tiruvananthpuram,2
+2/22/2015,No Log On Servers Available in System,"No Log On Servers Available. Kindly fix it at the earliest.
+Port No. - AB 01 00 A1 YZ 100, Buliding 3 , Ground Floor.",IT,amar,murli,1220154123,amurli@infy.com,jaipur,1
+2/23/2015,Desktop shifting,The earlier space where my desktop was kept has no LAN ports to connect. Kindly shift and see to it that all connections are made.,IT,prem,khanna,1220195126,pk@ihj.com,chandigarh,1
+2/24/2015,Update qualification branch,"Kindly update my qualification branch from
+'Electronics and communication technology ' to 'ELECTRONICS AND COMMUNICATION ENGINEERING'.",Legal ,dev,ahuja,1220174236,dahuja@wdf.com,Pune,3
+2/25/2015,Desktop not working,"Windows gets Shut down suddenly, showing a blue screen and error message that ""Windows was shut down to prevent damage to computer"". Happened thrice today.",IT,vipul,sinha,1220186235,vipul.sinha@hfb.com,blore,1
+2/26/2015,Computer getting locked,"My computer account is getting frequently locked, please look into it.",IT,ravi,lall,1220199412,lall.ravi@hfh.com,bbsr,1
+2/27/2015,Keyboard not working,"Hi team, my keyboard wire is broken, plz fix it immediately.",IT,sohail,khan,1220199985,skhan@gml.com,Hyderabad,1
+2/28/2015,VOIP not functioning,VOIP is not responding and unable to use it for calls. ,Facilities,afroz,shah,1220199142,ashah@hfh.com,Pune,2
+3/1/2015,PF account transfer,Need to get PF account transferred to different bank. Kindly quote the procedure,Legal ,krishna,patel,1220199756,krish@wdf.com,jaipur,1
+3/2/2015,Letter required,"I require company letter for Police verification, kindly provide with the same",Legal ,ajay,srivastava,1220199442,ajsri@yhg.com,blore,1
+3/3/2015,Drawer key lost,"I have lost my drawer keys, please provide me with a duplicate",Facilities,pulkit ,prasad,1220199482,pulkitpj@qas.com,hyd,3
+3/4/2015,Dustbin needed,"Plz help me with a dustbin for cubicle 1003, 2nd floor, building 6.",Facilities,ashraf,ali,1220199771,ultimate_ali@bcjb.com,Hyderabad,3
+3/5/2015,Software installation required,"hi team, Need Ananconda 3.6 to be installed on my system.",IT,ajay,kumar,1220117851,akr@hsb.com,mangalore,2
+3/6/2015,Leave encashment,Kindly encash my 10 earned leaves and credit the balance in my salary,HR,vivek,oberoi,1220117121,vvk@gml.com,Pune,2
+3/7/2015,Transfer letter not generated,My unit transfer is done.But my transfer letter is not generated. Could you please got in a ticket,HR,Virat,Kholi,7456123890,virat.kholi@hyu.com,Delhi,2
+3/8/2015,Issue with Official Transfer initiation,My official transfer is approved from manager but it is yet to be intiated,HR,Shikhar,Dhawan,7894561230,shikhar.dhawan@uio.com,Mumbai,1
+3/9/2015,Regarading the speration clearance,My all document are verified but still I don't have the clearance for seperation,HR,Suresh ,Raina,9653624170,raina.suresh@poi.com,Luckhnow,2
+3/10/2015,Query regarding the IJP,I have applied for IJP. I got a call for interview. They selected me. Can I withdraw now?,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+3/11/2015,Query regarding the promotion,what is the eligibility criteria for getting promotion from analyst to lead in the EAIS unit,HR,Ravi,Shashtri,7418529635,ravi.coach@uio.com,Chennai,1
+3/12/2015,Didn't receive confirmation letter,I have been confirmed on date 2/14/2018. But I didn?t get the confirmation letter,HR,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+3/13/2015,Regarding night shift allowance,I came in the night sift from last 2 months. I have manager approval. Still I am not getting any night shift allowance,HR,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,1
+3/14/2015,Querry for stock incentive,I have been offered stock option. Can you please let me know when my stock units would be credited to my account,HR,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+3/15/2015,Querry regarding appraisal,I wanted to know when the apprisal cycle will be kicked in and when the hike will be disbursed,HR,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,1
+3/16/2015,Bill reimbursementof project party,My bill is approved by Manager but it is yet to be reimbursed to me.,HR,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,2
+3/17/2015,Hygine issue in canteen food,The food given in the canteen is not hygine. The plates are not washed properly,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,3
+3/18/2015,Regarding price of food,"Food prices are not calculated properly after the new tax regime. Even if the tax reduced, bills amout is not",Facilities,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,2
+3/19/2015,Issue with service in food court,Vendor responsible for service are not serving food properly. Only few available in counter. Huge rush in peak time,Facilities,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+3/20/2015,hygine isssue in gym,Gym is not properly cleaned. Foul smell exist,Facilities,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,1
+3/21/2015,Microwave oven not heating up,food in the microwave oven is not heating up. ,Facilities,Madhu,Joshi,6352897410,madhu.joshi@outlook.com,Mumbai,1
+3/22/2015,wanted drawe key,My drawe key is lost. Can you please provide the duplicate key,Facilities,Smita,Patil,7456891230,smita.patil@hotmail.com,Chennai,2
+3/23/2015,regarding adequate space in parking ,There is no adequate space in parking. Please arrange some more space,Facilities,Namrita,Thakur,7539518529,thakur.namrita@hye.com,Delhi,3
+3/24/2015, booking Accomodation,I am not able to raise request for accomodation in Pune. Although my request is approved,Facilities,Sneha,Sharma,7731945682,sneha.sharma@opi.com,Delhi,1
+1/2/2015,issue with air conditioner,Ac in the room is not working. Temp is not well adjusteed,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+1/3/2015,Rooms not cleaned,Rooms are tidy. Please send some one to clean the room,Facilities,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,1
+1/4/2015,watercooler not working,Please fix the watercooler issue. Water is not coming out of this. ,Facilities,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+1/5/2015,Bus schedule not available,Can you please help me with the bus schedule my location. ,Facilities,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,3
+1/6/2015,Fix the projector issue in conference room,Projetor is not working in conference room number in 5th floor A wing,Facilities,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,1
+2/15/2015,Drawer Keys needed,Need key for Drawer CDE-MN-ZYXWV-000000011111,Facilities,abhishek,varma,1220180559,varma@ttf.com,mysore,3
+2/28/2015,VOIP not functioning,VOIP is not responding and unable to use it for calls. ,Facilities,afroz,shah,1220199142,ashah@hfh.com,Pune,2
+3/3/2015,Drawer key lost,"I have lost my drawer keys, please provide me with a duplicate",Facilities,pulkit ,prasad,1220199482,pulkitpj@qas.com,hyd,3
+3/4/2015,Dustbin needed,"Plz help me with a dustbin for cubicle 1003, 2nd floor, building 6.",Facilities,ashraf,ali,1220199771,ultimate_ali@bcjb.com,Hyderabad,3
+3/17/2015,Hygine issue in canteen food,The food given in the canteen is not hygine. The plates are not washed properly,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,3
+3/18/2015,Regarding price of food,"Food prices are not calculated properly after the new tax regime. Even if the tax reduced, bills amout is not",Facilities,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,2
+3/19/2015,Issue with service in food court,Vendor responsible for service are not serving food properly. Only few available in counter. Huge rush in peak time,Facilities,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+3/20/2015,hygine isssue in gym,Gym is not properly cleaned. Foul smell exist,Facilities,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,1
+3/21/2015,Microwave oven not heating up,food in the microwave oven is not heating up. ,Facilities,Madhu,Joshi,6352897410,madhu.joshi@outlook.com,Mumbai,1
+3/22/2015,wanted drawe key,My drawe key is lost. Can you please provide the duplicate key,Facilities,Smita,Patil,7456891230,smita.patil@hotmail.com,Chennai,2
+3/23/2015,regarding adequate space in parking ,There is no adequate space in parking. Please arrange some more space,Facilities,Namrita,Thakur,7539518529,thakur.namrita@hye.com,Delhi,3
+3/24/2015, booking Accomodation,I am not able to raise request for accomodation in Pune. Although my request is approved,Facilities,Sneha,Sharma,7731945682,sneha.sharma@opi.com,Delhi,1
+1/2/2015,issue with air conditioner,Ac in the room is not working. Please help.,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+1/3/2015,Rooms not cleaned,Rooms are tidy. Please send some one to clean the room asap.,Facilities,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,1
+1/4/2015,watercooler not working,Please fix the watercooler. Its not working properly.,Facilities,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+1/5/2015,Bus schedule not available,can you share the bus schedule so that I can plan for the same.,Facilities,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,3
+1/6/2015,Fix the projector issue in conference room,Projetor is not working in conference room number in 6th floor B wing,Facilities,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,1
+2/15/2015,Drawer Keys needed,Need key for Drawer CDE-MN-ZYXWV-000000011111. please provide asap,Facilities,abhishek,varma,1220180559,varma@ttf.com,mysore,3
+2/28/2015,VOIP not functioning,VOIP is not working properly.,Facilities,afroz,shah,1220199142,ashah@hfh.com,Pune,2
+3/3/2015,Drawer key lost,"I have lost my drawer keys, please provide me with a duplicate and let me know the procedure to be followed.",Facilities,pulkit ,prasad,1220199482,pulkitpj@qas.com,hyd,3
+3/4/2015,Dustbin needed,"Plz help me with a dustbin for cubicle 1004, 3nd floor, building 8.",Facilities,Siddhanta,ali,1220199771,ultimate_ali@bcjb.com,Hyderabad,3
+3/17/2015,Hygine issue in canteen food,Non hygenic food at canteen. Please do a hygine test asap.,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,3
+3/18/2015,Regarding price of food,high food price. Please revise the food price.,Facilities,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,2
+3/19/2015,Issue with service in food court,Vendor responsible for service are not serving food properly. Only few available in counter. ,Facilities,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+3/20/2015,hygine isssue in gym,Gym is not properly cleaned. Foul smell exist. Please clean it asap.,Facilities,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,1
+3/21/2015,Microwave oven not heating up,food in the microwave oven is not heating up. I think its faulty.,Facilities,Madhu,Joshi,6352897410,madhu.joshi@outlook.com,Mumbai,1
+3/22/2015,wanted drawe key,My drawe key is lost. Can you please provide the duplicate key or help me find the pointer to the same.,Facilities,Smita,Patil,7456891230,smita.patil@hotmail.com,Chennai,2
+1/7/2015,Regarding Background check documents,I am facing issue while uploading the back ground check documents.,HR,Virat,Kholi,7456123890,virat.kholi@hyu.com,Delhi,2
+1/8/2015,Correction in Date of Birth,My date of birth which is displayed in system in wrong. Please correct it.,HR,Shikhar,Dhawan,7894561230,shikhar.dhawan@uio.com,Mumbai,1
+1/9/2015,Regarding the transfer request,I raised tranfer request dated today. System is not allowing me to raise travel request. Its crashing.,HR,Suresh ,Raina,9653624170,raina.suresh@poi.com,Luckhnow,2
+1/10/2015,Seperation document ,even if I upload my seperation document it still not moving forward.,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+1/11/2015,Salary is not updated,Recently got role change. But I am receiving the salary as per my previous role.,HR,Ravi,Siddhanta,7418529635,ravi.coach@uio.com,Chennai,1
+1/30/2015,Unable to give the assessment exam,Assesment venue was locked and nobody was present. ,HR,ravindra,kumar,1220180214,rkumar@day.com,blore,2
+2/1/2015,Unable to change 'Evaluation by' field for submitted goal,I am unable to change my current evaluator. Please help me change it to my current manager,HR,abd,singh,1220180402,abs@hgu.com,gurugram,3
+2/17/2015,Project extension not happening,Current project allocation is not being extended. Please extend it asap.,HR,rahul,rai,1220181024,rarai@bcjb.com,blore,1
+2/18/2015,Shift mailbox access,"Hi, I have completed my training and shifted to Hyderabad, so please change the mailbox to hyderabad.",HR,smita,devi,1220180411,smita_devi@yah.com,blore,3
+3/6/2015,Leave encashment,please encash my 10 leaves.,HR,vivek,oberoi,1220117121,vvk@gml.com,Pune,2
+3/7/2015,Transfer letter not generated,My unit transfer is done.But my transfer letter is not generated. ,HR,Virat,Kholi,7456123890,virat.kholi@hyu.com,Delhi,2
+3/8/2015,Issue with Official Transfer initiation,My official transfer is approved from manager but it is yet to be intiated and the signal is red and I don’t who what is left.,HR,Siddhanta,bhatta,7894561230,shikhar.dhawan@uio.com,Mumbai,1
+3/9/2015,Regarading the speration clearance,even if my documents are verfied already still I am not getting my separation clearnce. High urgency,HR,Suresh ,Raina,9653624170,raina.suresh@poi.com,Luckhnow,1
+3/10/2015,Query regarding the IJP,I have applied for IJP. I got a call for interview. They selected me.is it possible to withdraw now ?,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+3/11/2015,Query regarding the promotion,what is the eligibility criteria for getting promotion from analyst to lead in Healthcare domain,HR,Ravi,Shashtri,7418529635,ravi.coach@uio.com,Chennai,1
+3/12/2015,Didn't receive confirmation letter,I have been confirmed on date 2/14/2017. But I didn?t get the confirmation letter. Please send me the confirmation letter.,HR,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+3/13/2015,Regarding night shift allowance,Even if all my clearance for night shift is completed by the manager I am still not getting the night shift allowance. Please help me on this.,HR,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,1
+3/14/2015,Querry for stock incentive,I have been offered stock option. Can you please let me know when my stock units would be matured and credited ?,HR,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+3/15/2015,Querry regarding appraisal,Could you please let me know when the appriasal cycle will be completed and when I will get a bonus ?,HR,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,1
+3/16/2015,Bill reimbursementof project party,"please reimbursh the bill amount to my account. Please note, the bills are already approved.",HR,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,2
+1/12/2015,Desktop allocaton,"Please allocate a desktop to me. Config : Windows 10, minimum 8 GB ram and a GPU for deep learning.",IT,Siddhanta,Arun,9638527410,bharat.arun@gmail.com,Hyderabad,2
+1/13/2015,Regarding software installation,Please install the software Eclipse IDE for java business edition,IT,Madhu,Joshi,6352897410,madhu.joshi@outlook.com,Mumbai,3
+1/14/2015,Upgrade the RAM ,Please upgrade the RAM from 4GB to 8GB as my project requires a high speed PC,IT,Smita,Patil,7456891230,smita.patil@hotmail.com,Chennai,3
+1/15/2015,Deallocation of system,Please deallocate the system as I am moving out of the building,IT,Namrita,Thakur,7539518529,thakur.namrita@hye.com,Delhi,3
+1/16/2015,Regarding the replacement of desktop,my desktop is not getting switched on. Please help.,IT,Sneha,Sharma,7731945682,sneha.sharma@opi.com,Delhi,1
+1/17/2015,firmware issue,Facing a firmware issue that is making the system to malfunction. Please resolve this ASAP.,IT,Rukhshan,Rahman,1237854123,ruk@a.com,hyd,3
+1/18/2015,security breach,security breach at EBS account. Need immediate support.,IT,siddhanta,bhatta,1234578523,sid@b.com,bbsr,3
+1/19/2015,Project move,"Project move from A to B, initiate a transfer for all desktops for the same.",IT,rahul,badhan,1231302923,rah@c.com,hyd,1
+1/20/2015,Virus attack,virus attack detected. Symentec is showing threats for this project for all PCs.,IT,udit,prakash,1228027323,udi@d.com,blore,2
+1/21/2015,New PC needed,Need new PCs as we are establishing new project in HYD dc.,IT,Rukhshan,Rahman,1224751723,ruk@a.com,hyd,1
+1/31/2015,Unable to login to Local system,help me login to local system. Facing issues.,IT,pankaj,singh,1220180321,pks@nght.com,chandigarh,1
+2/2/2015,Install software,Insatll IBM infosphere in my desktop,IT,arch,kumari,1220180619,ak@bhd.com,Hyderabad,2
+2/3/2015,Install software,Kindly install ABCD software,IT,vinit,kumar,1220180507,vkr@dd.com,jaipur,3
+2/4/2015,Email Password reset,Please reset the password asap.,IT,aditya,rao,1220180711,adi@abc.com,mangalore,1
+2/5/2015,Desktop Hardware Issuesÿ,Getting Blurred screen. Not able to view anything on monitor.,IT,sai,suman,1220181225,ss@dgf.com,hyd,1
+2/6/2015,Software Allocate,Please allocate PQR software to my virtual desktop,IT,jayanth,reddy,1220180801,reddyy@inf.com,gurugram,1
+2/7/2015,Desktop De Allocation,Kindly deallocate  mentioned machine  PQR-DKT-12312354,IT,kumar,gaurav,1220214322,kg@akdf.com,blore,2
+2/8/2015,Software Allocate,please allocate dasdas software to me,IT,anish,thomas,1220214321,ahtoms@gjg.com,chandigarh,1
+2/9/2015,Software Allocate,I have installed citrix. But for a software its asking me credentials. Please help me install the softwware.,IT,avansh,deo,1220214562,adeo@fghjf.com,tiruvananthpuram,1
+2/10/2015,Unable to submit Effort sheet,Need to submit effort sheets for 11 week.,IT,jason,roy,1220214895,roy@fyf.com,pune,2
+2/11/2015,Desktop Hardware Issues,mouse click is faulty. Please replace or fix it.,IT,kiran,kumar,1220180101,kirk@arsd.com,pune,3
+2/12/2015,Unable to raise Complimentary leave,I am unable to raise a complimentary leave. Please help me.,IT,abhay,ram,1220181431,abhram@yth.com,blore,2
+2/13/2015,Error in Dependent details,"Even if the dependent details are given repeatedly, Sparsh still not showing the dependent details.",IT,jay,prakash,1220180707,jp@wrd.com,Hyderabad,3
+2/14/2015,Unable to find work code in  Effort sheet,effort sheet is not reflecting work code.,IT,anurag,tripathy,1220182103,atri@hgyf.com,mangalore,2
+2/16/2015,Printer access needed,Please provide printer access to my PC. I have frequent print out requirement.,IT,rohit,sharma,1220180911,rohits@rtfg.com,Pune,2
+2/19/2015,Desktop Allocation,Please allocate a desktop to me. Needed for a project requirement.,IT,ankita,sinha,1220251120,ankis@gml.com,Hyderabad,1
+2/20/2015,Machine formatting,Please format my machine. Already taken back up for the same.,IT,harsh,kapoor,1220152632,hkp@yhg.com,mysore,1
+2/22/2015,No Log On Servers Available in System,Log on servers not available. Please help fix it.,IT,amar,murli,1220154123,amurli@infy.com,jaipur,1
+2/23/2015,Desktop shifting,I need to shift my desktop as this place is no more allocated to me.,IT,prem,khanna,1220195126,pk@ihj.com,chandigarh,1
+2/25/2015,Desktop not working,blue screen error coming constantly. Desktop is not working. Either fix it or replace it.,IT,vipul,sinha,1220186235,vipul.sinha@hfb.com,blore,1
+2/26/2015,Computer getting locked,My account is locked frequently. It’s becoming a headache. Could you fix it permanently.,IT,ravi,lall,1220199412,lall.ravi@hfh.com,bbsr,1
+2/27/2015,Keyboard not working,Keyboard is not working. Please replace or fix it.,IT,sohail,khan,1220199985,skhan@gml.com,Hyderabad,1
+3/5/2015,Software installation required,Please install anaconda for project requirement.,IT,ajay,kumar,1220117851,akr@hsb.com,mangalore,2
+1/22/2015,Verify legal documents,Verify legal documents for bing case,Legal ,siddhanta,bhatta,1221476123,sid@b.com,bbsr,3
+1/23/2015,process payment advocate,process payment for the PQR case advocate,Legal ,rahul,badhan,1218200523,rah@c.com,hyd,2
+1/24/2015,Check legal aspects,Check legal aspects for BBSR STP project,Legal ,udit,prakash,1214924923,udi@d.com,blore,1
+1/25/2015,send court documents,send the court documents to advocate ramesh and seek approvals,Legal ,Rukhshan,Rahman,1211649323,ruk@a.com,hyd,2
+1/26/2015,send court documents,review the case -97 docs immediately.,Legal ,siddhanta,bhatta,1208373723,sid@b.com,bbsr,1
+2/21/2015,Confirmation of submitted documents,can you please let me know if the sumittted documents for the case on normal is pending or not.,Legal ,Madhu,reddy,1220185236,madhred@yah.com,tiruvananthpuram,2
+3/1/2015,PF account transfer,Need to get PF account transferred to different bank. Kindly quote the legal procedure.,Legal ,krishna,patel,1220199756,krish@wdf.com,jaipur,1
+1/7/2015,Regarding Background check documents,I Joined recently. Not able to upload the document required for background verification.,HR,Virat,Kholi,7456123890,virat.kholi@hyu.com,Delhi,2
+1/8/2015,Correction in Date of Birth,My date of birth which is displayed in system in wrong. Please correct the dates to below new date.,HR,Shikhar,Dhawan,7894561230,shikhar.dhawan@uio.com,Mumbai,1
+1/12/2015,Desktop allocaton,Please allocate me a desktop with 64 bit processor and windows 10 OS.,IT,Bharat,Arun,9638527410,bharat.arun@gmail.com,Hyderabad,2
+1/15/2015,Deallocation of system,I am moving out of this workzone. Please deallocate this desktop,IT,Namrita,Thakur,7539518529,thakur.namrita@hye.com,Delhi,3
+1/20/2015,Virus attack,virus attack detected. Symentec is showing threats across all project,IT,udit,prakash,1228027323,udi@d.com,blore,2
+1/23/2015,process payment advocate,process payment for the ABC case advocate,Legal ,rahul,badhan,1218200523,rah@c.com,hyd,2
+1/25/2015,send court documents,send the court documents to advocate abc and seek approvals,Legal ,Rukhshan,Rahman,1211649323,ruk@a.com,hyd,2
+2/6/2015,Software Allocate,Unable to login to Virtual machine. Juniper client not working,IT,jayanth,reddy,1220180801,reddyy@inf.com,gurugram,1
+2/8/2015,Software Allocate,"While logging in to Virtual machine , getting this error, 'The Page you are using Requires Java. More information on Java support is available from Microsoft website.'",IT,anish,thomas,1220214321,ahtoms@gjg.com,chandigarh,1
+2/9/2015,Software Allocate,I have installed citrix. For juniper it is asking me for admin credentials.KIndly help me in this.,IT,avansh,deo,1220214562,adeo@fghjf.com,tiruvananthpuram,1
+2/17/2015,Project extension not happening,My team leader is not able to extend my allocation to my current project. Please look into it,HR,rahul,rai,1220181024,rarai@bcjb.com,blore,1
+2/26/2015,Computer getting locked,"My computer account is getting frequently locked, please look into it.",IT,ravi,lall,1220199412,lall.ravi@hfh.com,bbsr,1
+3/6/2015,Leave encashment,Kindly encash my 10 earned leaves and credit the balance in my salary,HR,vivek,oberoi,1220117121,vvk@gml.com,Pune,2
+3/8/2015,Issue with Official Transfer initiation,My official transfer is approved from manager but it is yet to be intiated,HR,Shikhar,Dhawan,7894561230,shikhar.dhawan@uio.com,Mumbai,1
+3/10/2015,Query regarding the IJP,I have applied for IJP. I got a call for interview. They selected me. Can I withdraw now?,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+3/11/2015,Query regarding the promotion,what is the eligibility criteria for getting promotion from analyst to lead in the EAIS unit,HR,Ravi,Shashtri,7418529635,ravi.coach@uio.com,Chennai,1
+3/12/2015,Didn't receive confirmation letter,I have been confirmed on date 2/14/2018. But I didn?t get the confirmation letter,HR,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+3/14/2015,Querry for stock incentive,I have been offered stock option. Can you please let me know when my stock units would be credited to my account,HR,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+3/15/2015,Querry regarding appraisal,I wanted to know when the apprisal cycle will be kicked in and when the hike will be disbursed,HR,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,1
+3/16/2015,Bill reimbursementof project party,My bill is approved by Manager but it is yet to be reimbursed to me.,HR,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,2
+1/7/2015,Regarding Background check documents,I am facing issue while uploading the back ground check documents.,HR,Virat,Kholi,7456123890,virat.kholi@hyu.com,Delhi,2
+1/8/2015,Correction in Date of Birth,My date of birth which is displayed in system in wrong. Please correct it.,HR,Shikhar,Dhawan,7894561230,shikhar.dhawan@uio.com,Mumbai,1
+2/17/2015,Project extension not happening,Current project allocation is not being extended. Please extend it asap.,HR,rahul,rai,1220181024,rarai@bcjb.com,blore,1
+3/6/2015,Leave encashment,please encash my 10 leaves.,HR,vivek,oberoi,1220117121,vvk@gml.com,Pune,2
+3/8/2015,Issue with Official Transfer initiation,My official transfer is approved from manager but it is yet to be intiated and the signal is red and I don’t who what is left.,HR,Siddhanta,bhatta,7894561230,shikhar.dhawan@uio.com,Mumbai,1
+3/10/2015,Query regarding the IJP,I have applied for IJP. I got a call for interview. They selected me.is it possible to withdraw now ?,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+3/11/2015,Query regarding the promotion,what is the eligibility criteria for getting promotion from analyst to lead in Healthcare domain,HR,Ravi,Shashtri,7418529635,ravi.coach@uio.com,Chennai,1
+3/12/2015,Didn't receive confirmation letter,I have been confirmed on date 2/14/2017. But I didn?t get the confirmation letter. Please send me the confirmation letter.,HR,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+3/14/2015,Querry for stock incentive,I have been offered stock option. Can you please let me know when my stock units would be matured and credited ?,HR,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+3/15/2015,Querry regarding appraisal,Could you please let me know when the appriasal cycle will be completed and when I will get a bonus ?,HR,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,1
+3/16/2015,Bill reimbursementof project party,"please reimbursh the bill amount to my account. Please note, the bills are already approved.",HR,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,2
+1/15/2015,Deallocation of system,Please deallocate the system as I am moving out of the building,IT,Namrita,Thakur,7539518529,thakur.namrita@hye.com,Delhi,3
+2/6/2015,Software Allocate,Please allocate PQR software to my virtual desktop,IT,jayanth,reddy,1220180801,reddyy@inf.com,gurugram,1
+2/8/2015,Software Allocate,please allocate dasdas software to me,IT,anish,thomas,1220214321,ahtoms@gjg.com,chandigarh,1
+2/9/2015,Software Allocate,I have installed citrix. But for a software its asking me credentials. Please help me install the softwware.,IT,avansh,deo,1220214562,adeo@fghjf.com,tiruvananthpuram,1
+3/10/2015,Query regarding the IJP,I have applied for IJP. I got a call for interview. They selected me. Can I withdraw now?,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+3/11/2015,Query regarding the promotion,what is the eligibility criteria for getting promotion from analyst to lead in the EAIS unit,HR,Ravi,Shashtri,7418529635,ravi.coach@uio.com,Chennai,1
+1/10/2015,Seperation document ,Reuiqred document for seperation is uploaded but still it is not allowing me to move forward.,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+1/2/2015,issue with air conditioner,Ac in the room is not working. Please help.,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+1/3/2015,Rooms not cleaned,Rooms are tidy. Please send some one to clean the room asap.,Facilities,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,1
+1/4/2015,watercooler not working,Please fix the watercooler. Its not working properly.,Facilities,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+1/5/2015,Bus schedule not available,can you share the bus schedule so that I can plan for the same.,Facilities,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,3
+1/6/2015,Fix the projector issue in conference room,Projetor is not working in conference room number in 6th floor B wing,Facilities,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,1
+2/15/2015,Drawer Keys needed,Need key for Drawer CDE-MN-ZYXWV-000000011111. please provide asap,Facilities,abhishek,varma,1220180559,varma@ttf.com,mysore,3
+2/28/2015,VOIP not functioning,VOIP is not working properly.,Facilities,afroz,shah,1220199142,ashah@hfh.com,Pune,2
+3/3/2015,Drawer key lost,"I have lost my drawer keys, please provide me with a duplicate and let me know the procedure to be followed.",Facilities,pulkit ,prasad,1220199482,pulkitpj@qas.com,hyd,3
+3/4/2015,Dustbin needed,"Plz help me with a dustbin for cubicle 1004, 3nd floor, building 8.",Facilities,Siddhanta,ali,1220199771,ultimate_ali@bcjb.com,Hyderabad,3
+3/17/2015,Hygine issue in canteen food,Non hygenic food at canteen. Please do a hygine test asap.,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,3
+3/18/2015,Regarding price of food,high food price. Please revise the food price.,Facilities,Sumit,Sharma,1234567890,sumit.sharma@abc.com,Hyderabad,2
+3/19/2015,Issue with service in food court,Vendor responsible for service are not serving food properly. Only few available in counter. ,Facilities,Prakash,Singh,8529637410,prakash.singh@uiy.com,Bangalore,3
+3/20/2015,hygine isssue in gym,Gym is not properly cleaned. Foul smell exist. Please clean it asap.,Facilities,Zaheer ,Khan,6352897410,zaheer.khan@iol.com,Mumbai,1
+3/21/2015,Microwave oven not heating up,food in the microwave oven is not heating up. I think its faulty.,Facilities,Madhu,Joshi,6352897410,madhu.joshi@outlook.com,Mumbai,1
+3/22/2015,wanted drawe key,My drawe key is lost. Can you please provide the duplicate key or help me find the pointer to the same.,Facilities,Smita,Patil,7456891230,smita.patil@hotmail.com,Chennai,2
+1/10/2015,Seperation document ,even if I upload my seperation document it still not moving forward.,HR,Sachin ,Tendulkar,7891234560,sachin.master@lkj.com,Mumbai,1
+2/25/2015,Desktop not working,blue screen error coming constantly. Desktop is not working. Either fix it or replace it.,IT,vipul,sinha,1220186235,vipul.sinha@hfb.com,blore,1
+1/2/2015,issue with air conditioner,Ac in the room is not working. Improper cooling please help asap.,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+1/2/2015,issue with air conditioner,Ac in the room is not working. Improper cooling please help asap.,Facilities,Amit,Jhadav,9685741230,amit.jhadav@xyz.com,Pune,2
+27-01-2016,Fix the projector issue in conference room,Projetor is not working in the conf room 5. please help.,Facilities,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,1
+21-04-2017,Salary is not updated,Recently got role change.but I am receiving the salary same as my previous role. Please resolve this asap and refund the cut salary.,HR,Ravi,Shashtri,7418529635,ravi.coach@uio.com,Chennai,1
+27-01-2016,Fix the projector issue in conference room,Projetor is not working in the conf room 5. please help.,Facilities,Rohit ,Sharma,5689237410,rohit.sharma@yui.com,Delhi,1
+26-04-2016,Regarding Background check documents,Address for background verification is failing repeatedly.,HR,Virat,Kholi,7456123890,virat.kholi@hyu.com,Delhi,2
+21-04-2017,Salary is not updated,Recently got role change.but I am receiving the salary same as my previous role. Please resolve this asap and refund the cut salary.,HR,Ravi,Shashtri,7418529635,ravi.coach@uio.com,Chennai,1
+12/2/2018,Deallocation of system,please deallocate the system,IT,Namrita,Thakur,7539518529,thakur.namrita@hye.com,Delhi,3
+29-10-2015,Virus attack,virus attack detected. Please help as I am not able to work.,IT,udit,prakash,1228027323,udi@d.com,blore,2
+27-01-2016,New PC needed,New PC needed to set up new account in BBSR dc.,IT,Rukhshan,Rahman,1224751723,ruk@a.com,hyd,1
+26-04-2016,Verify legal documents,Verify legal documents for AETNA asap,Legal ,siddhanta,bhatta,1221476123,sid@b.com,bbsr,3

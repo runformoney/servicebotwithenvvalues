@@ -1,0 +1,10 @@
+gunicorn
+Flask
+requests
+numpy
+scipy
+sklearn
+nltk
+mysqlclient
+urllib3
+pandas
