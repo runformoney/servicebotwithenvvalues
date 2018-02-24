@@ -306,5 +306,5 @@ def escalate_request(chat,text):
         send_message("Invalid Selection! Please try again.", chat)
 
 if __name__ == '__main__':
-    application.debug = true
+    application.debug = True
     application.run()
