@@ -2,11 +2,13 @@ import pandas as pd
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 import re
-from nltk.corpus import stopwords
+#from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 dataset = pd.read_csv('tickets_train.csv',encoding="cp1252")
 
+stopwords = ((open('stopwords.txt')).read()).split("\n")
+print(stopwords)
 corpus = []
 for i in range(237):
     #removing anything apart from characters from the review
@@ -17,7 +19,7 @@ for i in range(237):
     detail = detail.split()
     ps = PorterStemmer()
     #removing the stopwords from review and stemming
-    detail = [ps.stem(word) for word in detail if not word in set(stopwords.words('english'))]
+    detail = [ps.stem(word) for word in detail if not word in stopwords]
     #making the review back to a string
     detail = ' '.join(detail)
     corpus.append(detail)

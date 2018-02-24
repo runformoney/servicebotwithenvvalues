@@ -1,9 +1,11 @@
 import pickle
 import re
 from sklearn.feature_extraction.text import CountVectorizer
-from nltk.corpus import stopwords
+#from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 data = "Desktop not working"
+
+stopwords = ((open('stopwords.txt')).read()).split("\n")
 
 class MLhelper():
 
@@ -15,7 +17,7 @@ class MLhelper():
         detail = detail.lower()
         detail = detail.split()
         ps = PorterStemmer()
-        detail = [ps.stem(word) for word in detail if not word in set(stopwords.words('english'))]
+        detail = [ps.stem(word) for word in detail if not word in stopwords]
         detail = ' '.join(detail)
         corpus = []
         corpus.append(detail)
