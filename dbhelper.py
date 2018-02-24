@@ -2,11 +2,11 @@ import MySQLdb
 
 
 class DBHelper:
-    def __init__(self, dbname="sampledb"):
+    def __init__(self):
         # self.dbname = dbname
         global db
         global conn
-        db = MySQLdb.connect(host="172.30.76.229", port = 3306, user = "userCL4", passwd = "orVrVQUUJAG0nsQR", db = "sampledb")        
+        db = MySQLdb.connect(host="172.30.76.229", port = 3306, user = "admin", passwd = "password", db = "myseldb")        
         #db = MySQLdb.connect(host="172.30.115.81", port=3306, user="userXGB", passwd=" qkBjP1g0RvBYu6QY", db="sampledb")
         #db = MySQLdb.connect(host="172.30.115.81", port=3306, user="userRTL", passwd="eNU1gYbC1EYLe6gN", db="sampledb")
         #db = MySQLdb.connect(host="localhost", port=3306, user="root", passwd="admin", db="sampledb")
@@ -16,7 +16,7 @@ class DBHelper:
         conn.query('SET GLOBAL interactive_timeout=28800')
         print("Connection with DB successfull")
 
-        def setup(self):
+    def setup(self):
         tblstmt = "CREATE TABLE IF NOT EXISTS items (description char(255), owner char(50))"
         tblstmt2 = "CREATE TABLE IF NOT EXISTS cases (ticket_no char(50), log_date char(50), owner char(50), subject char(50), detail char(50),assignee char(50), department char(50), owner_fname char(50), owner_lname char(50), owner_phn char(10), owner_email char(50), owner_loc char(10), priority char(2), whd_ticket_id INT)"
         # itemidx = "CREATE INDEX IF NOT EXISTS itemIndex ON items (description ASC)"
