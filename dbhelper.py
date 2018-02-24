@@ -6,7 +6,7 @@ class DBHelper:
         # self.dbname = dbname
         global db
         global conn
-        db = MySQLdb.connect(host="172.30.88.166", port = 3306, user = "userWIP", passwd = "atyKAFDkMW6dnMri", db = "sampledb",connect_timeout=28800)
+        db = MySQLdb.connect(host="172.30.35.103", port = 3306, user = "user5EI", passwd = "5wDg3Hv43JMrsiHR", db = "sampledb",connect_timeout=28800)
         conn = db.cursor()
         #conn.query('SET GLOBAL connect_timeout=28800')
         conn.execute('SET GLOBAL wait_timeout=28800')
