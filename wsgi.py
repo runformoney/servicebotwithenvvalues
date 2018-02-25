@@ -4,7 +4,8 @@ import time
 import urllib
 import datetime
 import random
-from flask import Flask, make_response
+from flask import Flask
+#from flask.ext.rq import job
 
 from dbhelper import DBHelper
 from chat2classconversion import MLhelper
@@ -21,7 +22,7 @@ URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 correspondent_list = (open('correspondent.txt').read()).split("\n")
 
-application = Flask(__name__)
+app = Flask(__name__)
 
 def get_url(url):
     response = requests.get(url)
@@ -328,7 +329,7 @@ def escalate_request(chat,text):
     else:
         send_message("Invalid Selection! Please try again.", chat)
 
-@application.route("/")
+@app.route('/')
 def call_main_app():
     print("In Call")
     start()
@@ -336,4 +337,5 @@ def call_main_app():
 
 if __name__ == '__main__':
     #start()
-    application.run()
+    print("In Main")
+    app.run()
