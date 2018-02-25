@@ -4,7 +4,7 @@ import time
 import urllib
 import datetime
 import random
-from flask import Flask
+from flask import Flask, make_response
 
 from dbhelper import DBHelper
 from chat2classconversion import MLhelper
@@ -138,17 +138,19 @@ def send_message(text, chat_id, reply_markup=None):
         url += "&reply_markup={}".format(reply_markup)
     get_url(url)
 
-@application.route("/")
+
 def start():
+    print("In Start")
+    t_end = time.time() + 25
     db.db_connect()
     db.setup()
     last_update_id = None
-    while True:
+    while time.time() < t_end:
         updates = get_updates(last_update_id)
         if len(updates["result"]) > 0:
             last_update_id = get_last_update_id(updates) + 1
             handle_updates(updates)
-        time.sleep(0.95)
+        time.sleep(0.5)
     return "app running"
 
 def command(text,chat,firstName):
@@ -326,7 +328,12 @@ def escalate_request(chat,text):
     else:
         send_message("Invalid Selection! Please try again.", chat)
 
+@application.route("/")
+def call_main_app():
+    print("In Call")
+    start()
+    return("App is running!")
 
 if __name__ == '__main__':
-    while True:
-        application.run()
+    #start()
+    application.run()
