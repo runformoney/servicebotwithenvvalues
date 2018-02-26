@@ -19,8 +19,8 @@ class DBHelper:
         print("Connection with DB successfull")
 
     def setup(self):
-        tblstmt = "CREATE TABLE IF NOT EXISTS items (description char(255), owner char(50))"
-        tblstmt2 = "CREATE TABLE IF NOT EXISTS cases (ticket_no char(50), log_date char(50), owner char(50), subject char(50), detail char(255),assignee char(50), department char(50), owner_fname char(50), owner_lname char(50), owner_phn char(10), owner_email char(50), owner_loc char(10), priority char(2), whd_ticket_id INT)"
+        tblstmt = "CREATE TABLE IF NOT EXISTS items (description varchar(255), owner char(50))"
+        tblstmt2 = "CREATE TABLE IF NOT EXISTS cases (ticket_no char(50), log_date char(50), owner char(50), subject char(50), detail varchar(255),assignee char(50), department char(50), owner_fname char(50), owner_lname char(50), owner_phn char(10), owner_email char(50), owner_loc char(10), priority char(2), whd_ticket_id INT)"
         # itemidx = "CREATE INDEX IF NOT EXISTS itemIndex ON items (description ASC)"
         # ownidx = "CREATE INDEX IF NOT EXISTS ownIndex ON items (owner ASC)"
         conn.execute(tblstmt)
