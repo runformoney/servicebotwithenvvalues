@@ -329,7 +329,7 @@ def escalate_request(chat,text):
     else:
         send_message("Invalid Selection! Please try again.", chat)
 
-@app.route('/')
+@app.route("/")
 def call_main_app():
     print("In Call")
     start()
