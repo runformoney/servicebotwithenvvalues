@@ -9,7 +9,7 @@ class DBHelper:
         #db = MySQLdb.connect(host="172.30.88.166", port = 3306, user = "userWIP", passwd = "atyKAFDkMW6dnMri", db = "sampledb")        
         #db = MySQLdb.connect(host="172.30.115.81", port=3306, user="userXGB", passwd=" qkBjP1g0RvBYu6QY", db="sampledb")
         #db = MySQLdb.connect(host="172.30.115.81", port=3306, user="userRTL", passwd="eNU1gYbC1EYLe6gN", db="sampledb")
-        db = MySQLdb.connect(host="172.30.121.78", port=3306, user="userLVM", passwd="jqL6XKERGU8MhA0J", db="botdb")
+        db = MySQLdb.connect(host="172.30.203.197", port=3306, user="userAKD", passwd="PBdxsrmvNRbvvRrw", db="sampledb")
         conn = db.cursor()
         #conn.query('SET GLOBAL connect_timeout=28800')
         #conn.execute('SET GLOBAL wait_timeout=28800')
