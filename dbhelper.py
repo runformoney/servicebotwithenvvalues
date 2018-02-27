@@ -32,7 +32,7 @@ class DBHelper:
     def db_connect(self):
         global db
         global conn
-        db = MySQLdb.connect(host="172.30.121.78", port=3306, user="userLVM", passwd="jqL6XKERGU8MhA0J", db="botdb")
+        db = MySQLdb.connect(host="172.30.203.197", port=3306, user="userAKD", passwd="PBdxsrmvNRbvvRrw", db="sampledb")
         conn = db.cursor()
 
     def add_item(self, item_text, owner):
